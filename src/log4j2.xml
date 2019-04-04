@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <!-- Секция аппендеров -->
+  <Appenders>
+  	<!-- Консольный аппендер -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout>
+        <Pattern>%d{dd.MM.yyyy/HH:mm:ss} %20p %20t %20c{1}.class - [%m] %ex%n</Pattern>
+      </PatternLayout>
+    </Console>
+    <!-- Файловый аппендер -->
+    <File name="file-simple" fileName="log-simple.log">
+      <PatternLayout>
+        <Pattern>%d{dd.MM.yyyy/HH:mm:ss} %20p %20t %20c{1}.class - [%m] %ex%n</Pattern>
+      </PatternLayout>
+    </File>
+    <File name="file-crytical" fileName="log-crytical.log">
+      <PatternLayout>
+        <Pattern>%d{dd.MM.yyyy/HH:mm:ss} %20p %20t %20c{1}.class - [%m] %ex%n</Pattern>
+      </PatternLayout>
+    </File>
+  </Appenders>
+  <!-- Секция логгеров -->
+  <Loggers>
+    <Logger name="ru.bstu.it31.romashenko.lab2" level="all"/>
+    <Root level="all">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="file-simple"/>
+      <AppenderRef ref="file-crytical" level="warn"/>
+    </Root>
+  </Loggers>
+</Configuration>
