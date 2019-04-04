@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edcf7676-8436-4222-be32-670fca5a26b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2Ex1/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Ex1/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Treugolnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Treugolnik.java" afterDir="false" />
-    </list>
+    <list default="true" id="edcf7676-8436-4222-be32-670fca5a26b1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="121" column="40" lean-forward="true" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="40" />
+            <state relative-caret-position="-272">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +36,8 @@
       <file leaf-file-name="Treugolnik.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Treugolnik.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="225" column="54" selection-start-line="225" selection-start-column="54" selection-end-line="225" selection-end-column="54" />
+            <state relative-caret-position="423">
+              <caret line="243" selection-start-line="243" selection-end-line="244" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,12 +193,12 @@
       <workItem from="1554362825060" duration="3825000" />
       <workItem from="1554376115481" duration="616000" />
       <workItem from="1554377421962" duration="16000" />
-      <workItem from="1554398647825" duration="13387000" />
+      <workItem from="1554398647825" duration="14279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23050000" />
+    <option name="totallyTimeSpent" value="23942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -668,9 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log-crytical.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/log-simple.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -678,10 +669,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log-crytical.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="121" column="40" lean-forward="true" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="40" />
+        <state relative-caret-position="-272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -690,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bstu/it31/romashenko/lab2/Treugolnik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="225" column="54" selection-start-line="225" selection-start-column="54" selection-end-line="225" selection-end-column="54" />
+        <state relative-caret-position="423">
+          <caret line="243" selection-start-line="243" selection-end-line="244" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
