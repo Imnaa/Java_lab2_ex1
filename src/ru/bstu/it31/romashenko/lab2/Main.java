@@ -1,15 +1,17 @@
 package ru.bstu.it31.romashenko.lab2;
-
 import java.util.Scanner;
 import org.apache.logging.log4j.*;
 
-/** @author Ромащенко Н.А.
+/**
+ * @author Ромащенко Н.А.
  *
- * @version 1. 21.02.19
+ * @version 1.
  *
- * Имя класса: Main
+ * @date 21.02.19
  *
- * Назначение: Даны три положительных числа а, Ь, с. Проверить, будут ли они сторонами треугольника. Если да, то вычислить площадь этого треугольника
+ * @class Main
+ *
+ * @decription: Даны три положительных числа а, Ь, с. Проверить, будут ли они сторонами треугольника. Если да, то вычислить площадь этого треугольника
  */
 
 public class Main {
@@ -39,18 +41,19 @@ public class Main {
                 // Ввод сторон треугольника
                 System.out.print("a = ");
                 treugolnik.setA(scanner.nextDouble());
-                Logger.info("Пользователь ввел a = " + treugolnik.getA());
+                Logger.info("Пользователь ввел в a = " + treugolnik.getA());
                 System.out.print("b = ");
                 treugolnik.setB(scanner.nextDouble());
-                Logger.info("Пользователь ввел b = " + treugolnik.getB());
+                Logger.info("Пользователь ввел в b = " + treugolnik.getB());
                 System.out.print("c = ");
                 treugolnik.setC(scanner.nextDouble());
-                Logger.info("Пользователь ввел c = " + treugolnik.getC());
+                Logger.info("Пользователь ввел в c = " + treugolnik.getC());
                 scanner.close();
                 break;
             }
             // Файл
             case 2: {
+                System.out.println("Пользователь выбрал режим работы 'чтение из файла'");
                 Logger.info("Пользователь выбрал режим работы 'чтение из файла'");
                 // Функция для считывания из файла
                 treugolnik.getValueFromFile();
@@ -58,12 +61,14 @@ public class Main {
             }
             // Выход
             case 9: {
+                System.out.println("Пользователь выбрал режим работы 'выход'");
                 Logger.info("Пользователь выбрал режим работы 'выход'");
                 Logger.debug("Program is end.");
                 return;
             }
             // Ошибка ввода
             default: {
+                System.out.println("Выбран не верный параметр, программа завершила свою работу.");
                 Logger.warn("Выбран не верный параметр, программа завершила свою работу.");
                 Logger.debug("Program is end.");
                 return;
@@ -72,17 +77,19 @@ public class Main {
         // Вычисление периметра
         double p = treugolnik.getPerimatr();
         if (-1 == p) {
+            System.out.println("p не посчиталось вычислить");
             Logger.error("p не посчиталось вычислить");
             // Обработка ошибки
             Logger.debug("Program is end.");
             return;
         }
         Logger.info("Вычислили p = " + p);
-        System.out.println("P = " + p);
+        System.out.println(" > P = " + p);
         treugolnik.setP(p);
         // Вычисление площади
         double s = treugolnik.getPloshad();
         if (-1 == s) {
+            System.out.println("s не посчиталось вычислить");
             Logger.error("s не посчиталось вычислить");
             // Обработка ошибки
             Logger.debug("Program is end.");
@@ -90,7 +97,7 @@ public class Main {
         }
         Logger.info("Вычислили s = " + s);
         treugolnik.setS(s);
-        System.out.println("S = " + s);
+        System.out.println(" > S = " + s);
         treugolnik.printValueInFile();
         Logger.debug("Program is end.");
     }
